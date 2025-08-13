@@ -6,3 +6,4 @@ wget https://git.cybbh.space/cted/tech-college/cttsb/cctc/net/Net/-/raw/main/Res
 wget https://git.cybbh.space/cted/tech-college/cttsb/cctc/net/Net/-/raw/main/Resources/cal.py- SUBNET CALCULATOR.
 wget https://git.cybbh.space/cted/tech-college/cttsb/cctc/net/Net/-/raw/main/Resources/frag.py -FRAGMENTATION CALCULATOR.
 PROXY CHAINS*
+less /etc/p0f/p0f.fp #pof signature database
