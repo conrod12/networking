@@ -3,3 +3,5 @@ socket.socket( *family*, *type*, *proto* ) these three argument are in inside so
 family: AF_INET*, AF_INET6, AF_UNIX
 type: SOCK_STREAM*, SOCK_DGRAM, SOCK_RAW
 proto: 0*, IPPROTO_TCP, IPPROTO_UDP, IPPROTO_IP, IPPROTO_ICMP, IPPROTO_RAW
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) #set server socket option
+s.bind(('', 12345)) #Bind the Server Listening port to an address:
