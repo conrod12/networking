@@ -1,1 +1,5 @@
 s = socket.socket(socket.FAMILY, socket.TYPE, socket.PROTOCOL)  #use python to create socket.
+socket.socket( *family*, *type*, *proto* ) these three argument are in inside socket class
+family: AF_INET*, AF_INET6, AF_UNIX
+type: SOCK_STREAM*, SOCK_DGRAM, SOCK_RAW
+proto: 0*, IPPROTO_TCP, IPPROTO_UDP, IPPROTO_IP, IPPROTO_ICMP, IPPROTO_RAW
