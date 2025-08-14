@@ -15,3 +15,11 @@ Encode file to Hex:
 xxd file.txt file-encoded.txt
 Decode file from Hex:
 xxd -r file-encoded.txt file-decoded.txt
+
+
+Encode text to base64:
+echo "Message" | base64
+Encode file to Base64:
+base64 file.txt > file-encoded.txt
+Decode file from Base64:
+base64 -d file-encoded.txt > file-decoded.txt
