@@ -6,3 +6,4 @@ proto: 0*, IPPROTO_TCP, IPPROTO_UDP, IPPROTO_IP, IPPROTO_ICMP, IPPROTO_RAW
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) #set server socket option
 s.bind(('', 12345)) #Bind the Server Listening port to an address:
 s.listen() #prepares server for incoming connection
+ip_header = pack('!BBHHHBBH4s4s' , ip_ver_ihl, ip_tos, ip_len, ip_id, ip_frag, ip_ttl, ip_proto, ip_check, ip_srcadd, ip_dstadd) #python way of translating all of these sections
