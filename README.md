@@ -31,6 +31,7 @@ FILE SEARCH
 find / -name hint* 2> /dev/null #DEV/NULL SEND ALLL THE ERROR MESSAGES TO DEV/NULL
 find / -iname flag* 2> /dev/null
 
+exec 3<>/dev/tcp/172.16.82.106/22; echo -e "" >&3; cat <&3 #dev tcp banner grabbing
 
 
 
