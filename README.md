@@ -26,3 +26,15 @@ TCP
 for i in {1..254}; do nc -nvzw1 172.16.82.$i 20-23 80 2>&1 & done | grep -E 'succ|open' #Horizontal scanning
 UDP
 for i in {1..254}; do nc -nuvzw1 172.16.82.$i 1000-2000 2>&1 & done
+
+FILE SEARCH
+find / -name hint* 2> /dev/null #DEV/NULL SEND ALLL THE ERROR MESSAGES TO DEV/NULL
+find / -iname flag* 2> /dev/null
+
+
+
+
+
+
+
+
