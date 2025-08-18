@@ -35,6 +35,5 @@ echo "Hex encoding test" | xxd -p
 48657820656e636f64696e6720746573740a
 
 echo hex string and use xxd to restore the data to its original format
-
 echo "48657820656e636f64696e6720746573740a" | xxd -r -p
 Hex encoding test
