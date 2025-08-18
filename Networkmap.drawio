@@ -13,7 +13,7 @@
         <mxCell id="sWOYXhxfxUxqEofPekvH-11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="360" y="380" width="340" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="sWOYXhxfxUxqEofPekvH-14" value="RED&amp;nbsp; BDR RTR" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="sWOYXhxfxUxqEofPekvH-14" value="RED&amp;nbsp; BDR RTR&lt;div&gt;172.16.120.1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="520" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sWOYXhxfxUxqEofPekvH-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -264,6 +264,9 @@
         </mxCell>
         <mxCell id="In35oH9pr9J_KL5dSFsw-4" value="172.16.140.5/29" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-30;" vertex="1" parent="1">
           <mxGeometry x="1910" y="630" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In35oH9pr9J_KL5dSFsw-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="810" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
