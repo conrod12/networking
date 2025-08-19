@@ -1,0 +1,6 @@
+Internet_host$ telnet 10.50.87.199
+Rick$ ssh student@FLOAT(my float) -R 1111:127.0.0.1:22
+internet_host$ ssh Rick@127.0.0.1 -p 1111 -L 2222:10.1.2.18:2222
+internet_host$ ssh Morty@127.0.0.1 -p 2222 -L 3333:172.16.10.121:2323
+internet_host$ ssh Jerry@127.0.0.1 -p 3333:172.16.10.121:2323
+internet_host$ ssh Jerry@127.0.0.1 -p 3333 -L 4444:192.168.10.69:22
