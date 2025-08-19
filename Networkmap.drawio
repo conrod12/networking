@@ -11,7 +11,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sWOYXhxfxUxqEofPekvH-11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="360" y="380" width="340" height="340" as="geometry" />
+          <mxGeometry x="357" y="380" width="340" height="340" as="geometry" />
         </mxCell>
         <mxCell id="sWOYXhxfxUxqEofPekvH-14" value="RED&amp;nbsp; BDR RTR&lt;div&gt;RED-SCR&lt;br&gt;&lt;div&gt;172.16.120.1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;port 22,179&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="520" width="60" height="30" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry x="6" y="382" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sWOYXhxfxUxqEofPekvH-37" value="172.16.120.10/29" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="715" y="378" width="60" height="30" as="geometry" />
+          <mxGeometry x="718" y="378" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sWOYXhxfxUxqEofPekvH-41" value="172.16.120.9/29" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1105" y="376" width="60" height="30" as="geometry" />
