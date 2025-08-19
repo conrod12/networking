@@ -29,3 +29,7 @@ LOCAL PORT FORWARDING TO REMOTE TARGET VIA SERVER
 ssh student@127.0.0.1 -p 1111 -L 1112 bh3:22 -NT
 how to login -ssh student@127.0.0.1 -p 1112
 
+
+IH> telnet bh2
+IH> ssh student@bh1 -R 21199:LH: -NT
+
