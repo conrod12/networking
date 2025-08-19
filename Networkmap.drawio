@@ -55,7 +55,7 @@
             <mxPoint x="900" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sWOYXhxfxUxqEofPekvH-30" value="RED-IPS&lt;div&gt;RTR&lt;/div&gt;&lt;div&gt;port 22&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="sWOYXhxfxUxqEofPekvH-30" value="&lt;div&gt;172.16.120.18&lt;/div&gt;RED-IPS&lt;div&gt;RTR&lt;/div&gt;&lt;div&gt;port 22&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1200" y="330" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="sWOYXhxfxUxqEofPekvH-32" value="RED-INFRA" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -142,7 +142,7 @@
             <mxPoint x="1760" y="395" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sWOYXhxfxUxqEofPekvH-67" value="RED-POP&lt;div&gt;port 22&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="sWOYXhxfxUxqEofPekvH-67" value="&lt;div&gt;172.16.182.126&lt;/div&gt;RED-POP&lt;div&gt;port 22&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1700" y="458" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="sWOYXhxfxUxqEofPekvH-68" value="E0" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -250,7 +250,7 @@
             <mxPoint x="2010" y="569" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="In35oH9pr9J_KL5dSFsw-2" value="RED-POP2&lt;div&gt;port 22&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="In35oH9pr9J_KL5dSFsw-2" value="&lt;div&gt;172.16.140.62&lt;/div&gt;RED-POP2&lt;div&gt;port 22&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1940" y="700" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="In35oH9pr9J_KL5dSFsw-3" value="E0" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
