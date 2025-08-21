@@ -1,0 +1,26 @@
+iptables -t [table] -A [chain] [rules] -j [action]
+Table: filter*, nat, mangle
+Chain: INPUT, OUTPUT, PREROUTING, POSTROUTING, FORWARD
+
+filter - INPUT, FORWARD, and OUTPUT
+nat - PREROUTING, POSTROUTING, INPUT, and OUTPUT
+mangle - All chains
+raw - PREROUTING and OUTPUT
+security - INPUT, FORWARD, and OUTPUT
+
+-j [ ACCEPT | REJECT | DROP ]
+
+MODIFY IPTABLES
+
+Flush table
+
+iptables -t [table] -F
+Change default policy
+
+iptables -t [table] -P [chain] [action]
+Lists rules with rule numbers
+
+iptables -t [table] -L --line-numbers
+Lists rules as commands interpreted by the system
+
+iptables -t [table] -S
