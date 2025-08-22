@@ -15,6 +15,29 @@ MENTAL WALK THROUGH
 
 
 
+IH> ssh sterling@10.50.93.47 -L 1111:10.1.2.200:23
+IH>telnet localhost 1111
+LANA> ssh Sterling@10.1.2.130 -R 2222:localhost:8976
+IH> Sterlling@10.50.93.47 -L 3333:Localhost:2222
+IH> ssh Lana@localhost -p 3333 -L 4444:10.2.5.20:22
+iH> ssh cheryl@localhost -p 4444 -L 5555:10.3.9.39:23
+IH>telnet localhost 5555
+Malory$ssh Cheryl@10.3.9.33 -R 6666:localhost:3597
+IH$sshCheryl@localhost -p 4444 -L 7777:localhost:6666
+IH$ssh Malory@localhost -p 7777 -D 9050
+IH$ proxychains nc localhost 58246
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
