@@ -1,5 +1,5 @@
 MENTAL WALK THROUGH
-1) NMAP -sT -T4 (float ip instructor provide) -p 21-23, 80 # see which one these ports open
+1) NMAP -sT -T4 (float ip instructor provide) -p 21-23,80 # see which one these ports open
 2) wget -r http or ftp://(float ip provided)
 3) ls
 4) cd in the (float ip provided) then ls                                            /etc/ssh/sshd_config
