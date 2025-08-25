@@ -6,7 +6,7 @@ MENTAL WALK THROUGH
 5) Eog for png files only.
                                                                                     /usr/share/cctc/name-share.png
 
-
+                                                                                    scp -P 10472 Lana@localhost:/usr/share/cctc/Lana-share.png .  #copy share files to where you at.  
 
 
 
